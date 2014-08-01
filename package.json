@@ -1,0 +1,26 @@
+{
+  "name": "csm_crawler",
+  "version": "0.0.1",
+  "description": "crawl chuansongme.com",
+  "main": "lib/csm_crawler.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/testrunner.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MelvinTo/csm_crawler.git"
+  },
+  "keywords": [
+    "crawl",
+    "weixin"
+  ],
+  "author": "Melvin Tu (melvinto@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelvinTo/csm_crawler/issues"
+  },
+  "homepage": "https://github.com/MelvinTo/csm_crawler"
+}
