@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/static/css/inspector.css" rel="stylesheet" type="text/css">
+<link href="/static/css/main.css" rel="stylesheet" type="text/css">
+<link href="/static/css/base.css" rel="stylesheet" type="text/css">
+<!--[if IE]>
+<link href="/static/css/ie.css" rel="stylesheet" type="text/css">
+<![endif]-->
+<!-- Le fav and touch icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/img/ico/apple-touch-icon-ipad3.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/img/ico/apple-touch-icon-iphone4.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/img/ico/apple-touch-icon-ipad.png">
+<link rel="apple-touch-icon-precomposed" href="/static/img/ico/apple-touch-icon-iphone.png">
+<link rel="shortcut icon" href="/static/favicon.ico">
+
+<title>解读微信公众平台最新的改版 -- 传送门 -- 传送门</title>
+<meta name="keywords" content="解读微信公众平台最新的改版,传送门,传送门" />
+<meta name="description" content="微信公众平台前天有一次改版,不过当天就回滚了,而且看起来当时不是在做A/B.昨天又重复了一遍前天的改版.主要的改动有:1.公众账号历史消息列表现在只显示头条位置文章;2.图文页面变成完全响应式(responsive)的,这点非常赞!之前pc和mobile各有一个样式.图文页作者显示在..." />
+
+<link rel="stylesheet" type="text/css" href="/static/css/article.css"/>
+<!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="/static/css/article_pc.css"/> <![endif]-->
+<link media="screen and (min-width:1023px)" rel="stylesheet" type="text/css" href="/static/css/article_pc.css"/>
+<style>ol,ul{list-style-position:inside;}</style>
+
+
+</head>
+<body>
+<div class="hidden" id="__w2_ECTin9B_banner">
+<div class="above_page_padding"></div>
+</div>
+<div class="">
+<div id="ld_fadXXq_104">
+<div>
+<div style="display:none;" id="live_mutation_pending"></div>
+<div class="header wrapper" id="layout_header">
+<div class="contents">
+<div class="row relative">
+<div class="logo " style="padding: 5px 10px 5px;font-size: 15px;left: -60px;margin-left: -70px;">
+<a style="text-decoration: none;font-weight: bold;color: #333;" href="/" alt="传送门"><img src='/static/img/logo.png'></a>
+</div>
+<div>
+<div class=" search full_search instant_results">
+<div class="search_contents navigator">
+<form class="search_form" action="/search" method="get" name="search_form">
+<div class="search_input">
+<div class="input_wrapper ">
+<input class="question_box light" name="q" type="text"  maxlength="250" placeholder="搜索账号或文章" tabindex="1" >
+</div></div></form></div></div></div></div>
+</div>
+</div>
+</div>
+<div class="hidden row results_tray" id="__w2_XvrPmGi_results_tray"></div>
+<div id="ld_RKxMEG_252"></div>
+</div>
+</div>
+
+<div id="essay-body"><div class="rich_media"> <div class="rich_media_inner"> <h2 class="rich_media_title" id="activity-name"> 解读微信公众平台最新的改版 <em class="rich_media_meta text">by Zlex</em> </h2> <div class="rich_media_meta_list"> <em id="post-date" class="rich_media_meta text">2014-07-23</em> <a class="rich_media_meta link nickname" href="/account/chuansongme" id="post-user">传送门</a> </div> <div id="page-content"> <div id="img-content"> <div class="rich_media_thumb" id="media"> <img onerror="" src="http://essay.b0.upaiyun.com/1393/563254/0.jpg" /> </div> <div class="rich_media_content" id="js_content"><p>微信公众平台前天有一次改版，不过当天就回滚了，而且看起来当时不是在做A/B。</p><p><br /></p><p>昨天又重复了一遍前天的改版。</p><p><br /></p><p>主要的改动有：</p><p>1.公众账号历史消息列表现在只显示头条位置文章;</p><p>2.图文页面变成完全响应式(responsive)的，这点非常赞！之前pc和mobile各有一个样式。图文页作者显示在标题里，by author的形式(你现在看到的这篇文章就是这样的，by Zlex)</p><p>3.猜测图文页很快就会显示阅读量，而且单篇文章可点赞，点赞数也会显示。</p><p><br /></p><p>关于第3点，之前已经流出了显示阅读量的图文页的截图了。</p><p><img data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mibGiaibFLiaTP9ADrFCb6qhAXxxDvWMKiccA49aAho24yINpVLiaxWzTqaM4dzv14MsYGSseibDpOLU4vNxTK27tp9eQ/0" src="http://essay.b0.upaiyun.com/1393/563254/1.jpg" onerror="" /></p><p><br /></p><p>但是一张截图还是不能说明问题，如果你有兴趣打开任何一篇图文消息，然后查看源代码，你就能找到下面这段代码(点击图片再放大可以看的更清晰一点，另外，看不懂就跳过吧)：</p><p><img data-s="300,640" data-src="http://mmbiz.qpic.cn/mmbiz/mibGiaibFLiaTP9ADrFCb6qhAXxxDvWMKiccA1z3opwxM69ZRAjBUXEGsw0cYnfaYmmGpnvJNf5UoX7CzFt2smLocqw/0" src="http://essay.b0.upaiyun.com/1393/563254/2.jpg" onerror="" /></p><p><br /></p><p>这段js代码里包含了两个非常关键的信息，readNum(阅读量)、likeNum(点赞量)，而且like_report这个函数就是用户点赞相关操作的实现。</p><p>当然现在readNum直接是1，likeNum直接是赞，相信以后微信会给出这两个真正的值的，因为从这段代码里能看到已经为页面设定了要显示阅读量和点赞量的位置id(#readNum、#likeNum)。</p><p><br /></p><p>另外有意思的是，这段代码里也能看到微信里写这段代码的同学要对readNum再进行下处理，也就是过10000阅读量则直接显示a.b万，这时就不再给出具体的数字，比如阅读量是25673万则显示2.5万，精确到一位小数，但是这位同学在处理的时候不知道是有意无意把这种情况的触发条件设成了100000，多了个0，那就完全不一样了，因为按照这种写法，只有阅读量过10万，才会把万以后的数字模糊化，不过也有可能微信就是要在过10万阅读量时才这这样显示，我们等阅读量真正显示时再回来看这个问题。</p><p><br /></p><p>为了与微信同步，传送门已对PC版的文章页面做了改版，以后新文章页面也是完全响应式的了，这样做使得传送门的页面样式不完全一致了，不过为了更好的阅读体验，这样做完全是值得的。</p><p><br /></p><p>另外，我今后也会更多的与大家分享一些微信相关的技术，所以我注册了一个新的微信公众帐号&quot;技术微谈&quot;，ID是WeTalkTech，定位在解读分享与微信有关的技术和产品，包括传送门使用的技术也会逐步在这个帐号中公开，现在帐号还在审核中，但是不影响关注，所以有兴趣的同学可以关注下。</p></div> <div class="rich_media_tool" id="js_toobar"> <a class="media_tool_meta link_primary meta_extra" href="javascript:report_article();" style="display:none;">举报</a> </div> </div> </div> <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display:none;"> <div class="qr_code_pc_inner"> <div class="qr_code_pc"> <img id="js_pc_qr_code_img" class="qr_code_pc_img" /> <p>微信扫一扫<br />获得更多内容</p> </div> </div> </div> </div> </div> </div>
+<br>
+
+
+<div class=" footer wrapper">
+<div class="contents">
+<div class="footer_nav row">
+<div class="e_col footer_links w8">
+<ul class="nav_list">
+<li class="about"><a href="/about">关于</a></li>
+<li><span class="bullet"> • </span></li>
+<li class="about"><a href="/submit/account">提交</a></li>
+<li ><span class="bullet" > • </span></li>
+<li class="about" ><a href="/accounts">帐号</a></li>
+<li class="about" style="float: right"><a href="https://www.upyun.com/index.html" target="_blank">又拍云</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-43871192-1']);
+_gaq.push(['_setDomainName', '.chuansongme.com']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<script language="javascript" src="/static/js/jquery-1.4.2.min.js"></script>
+<script language="javascript" src="/static/js/common.js"></script>
+<script language="javascript" src="/static/js/base.js"></script>
+
+</html>

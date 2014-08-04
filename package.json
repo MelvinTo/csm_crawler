@@ -13,6 +13,14 @@
     "type": "git",
     "url": "https://github.com/MelvinTo/csm_crawler.git"
   },
+  "dependencies": {
+    "crawler": "https://github.com/MelvinTo/node-crawler/tarball/7ec6dca22c71926d447322e8e37fea40e34df0f3",
+    "underscore": "1.6.0",
+    "express": "4.7.2",
+    "utils-merge": "1.0.0",
+    "nodejieba": "0.2.2",
+    "qunit": "0.7.2"
+  },
   "keywords": [
     "crawl",
     "weixin"
